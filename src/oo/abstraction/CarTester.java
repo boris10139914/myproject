@@ -12,9 +12,9 @@ public class CarTester {
 		cars[2] = new Car("Toyoya", 2000, "Wish");
 		cars[0].id = 222;
 		System.out.println(cars[0].name);
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 3; i++) { // i的生存空間Scope到-
 			System.out.println(cars[i].name);
-		}
+		} // 這
 		class AA {
 		}
 		AA a = new AA();
