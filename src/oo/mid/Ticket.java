@@ -5,33 +5,29 @@ public class Ticket {
 	String name;
 	float price;
 
-	public int setterId(int i) {
-		id = i;
+	public void setterId(int id) {
+		this.id =id;
+		
+	}
+
+	public int getterId() {
+		
 		return id;
 	}
 
-	public int getterId(int j) {
-		id = j;
-		return id;
+	public void setterPrice(float price) {
+		this.price =price;
 	}
 
-	public float setterPrice(int m) {
-		price = m;
+	public float getterPrice() {	
 		return price;
 	}
 
-	public float getterPrice(int n) {
-		price = n;
-		return price;
+	public void setterName(String name) {
+	 this.name =name;
 	}
 
-	public String setterName(String p) {
-		name = p;
-		return name;
-	}
-
-	public String getterName(String q) {
-		name = q;
+	public String getterName() {
 		return name;
 	}
 }

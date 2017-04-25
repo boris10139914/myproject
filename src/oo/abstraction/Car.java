@@ -9,6 +9,11 @@ public class Car {
 	int id;
 	float milage;
 
+	public Car(String brand, String name) {
+		this(brand, 0, name);
+		System.out.println("此建構子較特別");
+	}
+
 	public Car(String brand, int cc, String name) {// 區域變數(String brand, int cc,
 													// String name) 包含下面的 =
 													// brand;..
