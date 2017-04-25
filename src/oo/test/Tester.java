@@ -11,7 +11,7 @@ public class Tester {
 		ArrayList<String> a = new ArrayList(); // (只能字串)
 		// String[] numbers={"331","821","886","554"}原本
 		a.add("331");// 0
-		a.add("821");// 1
+		a.add("123");// 1
 		a.add("886");// 2
 		// a.add(123);
 		// a.add(true);

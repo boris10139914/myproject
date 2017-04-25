@@ -11,6 +11,6 @@ public class MealTester {
 		System.out.println("請輸入顧客餐點");
 		m.name = s.nextLine();
 		m.totalprice = m.sum(50.0f, 0.9f);
-		System.out.println("您點的是" + m.name + "您要付的價錢是" + m.totalprice);
+		System.out.println("顧客點的是" + m.name + "顧客要付的價錢是" + m.totalprice);
 	}
 }
