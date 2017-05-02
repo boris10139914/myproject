@@ -9,6 +9,9 @@ public class Car {
 	int id;
 	float milage;
 
+	public Car() {
+		
+	}
 	public Car(String brand, String name) {
 		this(brand, 0, name);
 		System.out.println("此建構子較特別");
