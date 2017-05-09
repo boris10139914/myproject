@@ -21,6 +21,7 @@ public class Tester {
 		for (int i = 0; i < list.size(); i++) {
 			Student stu = list.get(i);
 			stu.print();
+			System.out.println(stu1);
 			//把new出來的物件放到arraylist 
 		}
 	}

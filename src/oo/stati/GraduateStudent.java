@@ -13,4 +13,5 @@ public class GraduateStudent extends Student {
 	public void print() {
 		System.out.println(getScore(english) + "\t" +getScore(math) + "\t" + getScore(chinese) + "\t" + getScore(thisis));
 	}
+
 }

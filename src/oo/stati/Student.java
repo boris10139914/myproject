@@ -31,4 +31,12 @@ public class Student {
 			return String.valueOf(score);
 		}
 	}
+	@Override
+	public String toString(){ //複寫Object的toString方法
+		return
+				"eng:"+english+"\n"+
+				"chinese:"+chinese+"\n"+
+				"math:"+math+"\n"
+				;
+	}
 }
