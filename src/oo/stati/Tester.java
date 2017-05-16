@@ -22,6 +22,7 @@ public class Tester {
 			Student stu = list.get(i);
 			stu.print();
 			System.out.println(stu1);
+			//呼叫stu1也就是student的toString方法 若有複寫則以複寫的
 			//把new出來的物件放到arraylist 
 		}
 	}
