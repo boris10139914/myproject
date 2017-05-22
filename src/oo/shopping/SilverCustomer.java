@@ -10,7 +10,7 @@ public class SilverCustomer extends Customer {
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		super.print();
+		
 		System.out.println(price + "\t" + (price * discount) + "\t");
 	}
 
