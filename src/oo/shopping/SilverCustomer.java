@@ -4,7 +4,7 @@ public class SilverCustomer extends Customer {
 	float discount = 0.9f;
 
 	public SilverCustomer(int price) {
-		super(price);// 呼叫父類別建構子
+		super(price);// 呼叫父類別建構子 
 	}
 
 	@Override
