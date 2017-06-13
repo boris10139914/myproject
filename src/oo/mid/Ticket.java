@@ -1,7 +1,7 @@
 package oo.mid;
 
 public class Ticket {
-	int id;;
+	 int id;
 	String name;
 	float price;
 
